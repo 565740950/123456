@@ -45,6 +45,8 @@ jobs:
           npm install hexo-generator-feed --save
           npm install hexo-abbrlink --save
           npm install hexo-wordcount --save
+          npm install hexo-deployer-qcloud-cos --save
+          
 
       - name: 部署博客
         run: |
